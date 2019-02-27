@@ -2,8 +2,8 @@ pipeline {
   agent any
 
   environment {
-        HELM_USERNAME = credentials('HELM_USERNAME')
-        HELM_PASSWORD = credentials('HELM_PASSWORD')
+//        HELM_USERNAME = credentials('HELM_USERNAME')
+//        HELM_PASSWORD = credentials('HELM_PASSWORD')
   }
 
   stages {
