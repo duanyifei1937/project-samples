@@ -1,10 +1,10 @@
 pipeline {
   agent any
 
-  environment {
+//  environment {
 //        HELM_USERNAME = credentials('HELM_USERNAME')
 //        HELM_PASSWORD = credentials('HELM_PASSWORD')
-  }
+//  }
 
   stages {
 
